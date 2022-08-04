@@ -125,7 +125,7 @@ function key_down() {
 }
 
 function next_game() {
-    if(score == 18) {
+    if(score == 20) {
         stop_game();
         screen.innerHTML = ""; //清空屏幕
         fall();
