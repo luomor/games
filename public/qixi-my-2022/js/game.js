@@ -8,7 +8,7 @@ var create_flag;
 var down_flag;
 
 function start_game() {
-    var audio = new Audio("img/Feeling The Rain.MP3");
+    var audio = new Audio("img/Feeling-The-Rain.MP3");
     audio.play();
     create_letter();
     down_letter();
