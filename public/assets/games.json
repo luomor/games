@@ -69,5 +69,12 @@
             "src": "https://games.luomor.com/assets/Games-icon.png"
         }],
         "url": "https://games.luomor.com/memory/"
+    },{
+        "title": "一起答题（mobile）",
+        "description": "一起答题（mobile）",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://games.luomor.com/quiz-game/"
     }]
 }
