@@ -76,5 +76,54 @@
             "src": "https://games.luomor.com/assets/Games-icon.png"
         }],
         "url": "https://games.luomor.com/quiz-game/"
+    },{
+        "title": "俄罗斯方块",
+        "description": "俄罗斯方块",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://games.luomor.com/tetris/"
+    },{
+        "title": "合成",
+        "description": "合成",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://games.luomor.com/big-watermelon/"
+    },{
+        "title": "口红游戏",
+        "description": "口红游戏",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://games.luomor.com/lipstick-game/"
+    },{
+        "title": "心",
+        "description": "心",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://games.luomor.com/most-loving-day/heart.html"
+    },{
+        "title": "贪吃蛇（pc）",
+        "description": "通过人脸控制",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://games.luomor.com/snake-face-control/"
+    },{
+        "title": "抢红包",
+        "description": "抢红包",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://games.luomor.com/car/"
+    },{
+        "title": "猪了个猪",
+        "description": "猪了个猪",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://games.luomor.com/zhulegezhu/"
     }]
 }
