@@ -3,8 +3,8 @@
         "title": "2048",
         "description": "2048",
         "images": [{
-            "src": "https://aigc.luomor.com/wp-content/uploads/2023/04/image-113.png"
+            "src": "https://games.luomor.com/assets/Games-icon.png"
         }],
-        "url": "https://games.luomor.com/2048/"
+        "url": "https://games.luomor.com/assets/Games-icon.png"
     }]
 }
