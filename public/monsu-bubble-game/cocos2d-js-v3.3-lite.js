@@ -3336,8 +3336,8 @@ cc.ContainerStrategy = cc.Class.extend({
         console.log(h);//603
         locContainer.style.width = w + "px";
         locContainer.style.height = h + "px";
-        //locCanvasElement.style.width = w + "px";
-        //locCanvasElement.style.height = h + "px";
+        locCanvasElement.style.width = w + "px";
+        locCanvasElement.style.height = h + "px";
         var devicePixelRatio = view._devicePixelRatio = 1;
         if (view.isRetinaEnabled())
             devicePixelRatio = view._devicePixelRatio = window.devicePixelRatio || 1;
