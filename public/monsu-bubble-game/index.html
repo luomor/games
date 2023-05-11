@@ -25,12 +25,12 @@
      </script>
     <script>
         // screen.orientation.lock("landscape-primary");
-        var evt = "onorientationchange" in window ? "orientationchange" : "resize";
+        let evt = "onorientationchange" in window ? "orientationchange" : "resize";
       
-        window.addEventListener(evt, function() {
+        /*window.addEventListener(evt, function() {
             console.log(evt);
-            var width = document.documentElement.clientWidth;
-            var height =  document.documentElement.clientHeight;
+            let width = document.documentElement.clientWidth;
+            let height =  document.documentElement.clientHeight;
             let gameCanvas =  document.getElementById('gameCanvas');
             if( width > height ) {
                 gameCanvas.width = height + "px";
@@ -48,7 +48,7 @@
                 gameCanvas.style["transform-origin"] = '50% 50%';
             }
             
-        }, false);
+        }, false);*/
     </script>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="full-screen" content="yes"/>
