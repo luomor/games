@@ -3332,10 +3332,12 @@ cc.ContainerStrategy = cc.Class.extend({
             cc.screen.autoFullScreen(frame);
         }
         var locCanvasElement = cc._canvas, locContainer = cc.container;
-        console.log(w);
-        console.log(h);
-        //locContainer.style.width = locCanvasElement.style.width = w + "px";
-        //locContainer.style.height = locCanvasElement.style.height = h + "px";
+        console.log(w);//745
+        console.log(h);//603
+        locContainer.style.width = w + "px";
+        locContainer.style.height = h + "px";
+        //locCanvasElement.style.width = w + "px";
+        //locCanvasElement.style.height = h + "px";
         var devicePixelRatio = view._devicePixelRatio = 1;
         if (view.isRetinaEnabled())
             devicePixelRatio = view._devicePixelRatio = window.devicePixelRatio || 1;
