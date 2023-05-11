@@ -24,7 +24,7 @@
         })();
      </script>
     <script>
-        screen.orientation.lock("landscape-primary");
+        // screen.orientation.lock("landscape-primary");
     </script>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="full-screen" content="yes"/>
@@ -38,6 +38,21 @@
             -webkit-user-select: none;
             -ms-user-select: none;
             -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        #gameCanvas {
+            width: 100vw;
+            height: 100vh;
+        }
+        @media screen and (orientation: portrait) {
+        #gameCanvas {
+            transform: rotate(90deg);
+            transform-origin: 50% 50%;
+            width: 100vh;
+            height: 100vw;
+            position: fixed;
+            top: calc((100vh - 100vw) / 2);
+            left: calc((100vw - 100vh) / 2);
+        }
         }
     </style>
     <script src="cocos2d-js-v3.3-lite.js"></script>
