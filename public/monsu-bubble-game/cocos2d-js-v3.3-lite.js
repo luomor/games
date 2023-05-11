@@ -948,8 +948,8 @@ cc._setup = function (el, width, height) {
         element.appendChild(localCanvas);
     }
     localCanvas.addClass("gameCanvas");
-    //localCanvas.setAttribute("width", width || 480);
-    //localCanvas.setAttribute("height", height || 320);
+    localCanvas.setAttribute("width", width || 480);
+    localCanvas.setAttribute("height", height || 320);
     localCanvas.setAttribute("tabindex", 99);
     localCanvas.style.outline = "none";
     localConStyle = localContainer.style;
@@ -3332,8 +3332,8 @@ cc.ContainerStrategy = cc.Class.extend({
             cc.screen.autoFullScreen(frame);
         }
         var locCanvasElement = cc._canvas, locContainer = cc.container;
-        locContainer.style.width = locCanvasElement.style.width = w + "px";
-        locContainer.style.height = locCanvasElement.style.height = h + "px";
+        //locContainer.style.width = locCanvasElement.style.width = w + "px";
+        //locContainer.style.height = locCanvasElement.style.height = h + "px";
         var devicePixelRatio = view._devicePixelRatio = 1;
         if (view.isRetinaEnabled())
             devicePixelRatio = view._devicePixelRatio = window.devicePixelRatio || 1;
