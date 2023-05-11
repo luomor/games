@@ -31,23 +31,21 @@
             console.log(evt);
             var width = document.documentElement.clientWidth;
             var height =  document.documentElement.clientHeight;
-            $gameCanvas =  $('#gameCanvas');
-            if( width > height ){
-            
-                $gameCanvas.width(width);
-                $gameCanvas.height(height);
-                $gameCanvas.css('top',  0 );
-                $gameCanvas.css('left',  0 );
-                $gameCanvas.css('transform' , 'none');
-                $gameCanvas.css('transform-origin' , '50% 50%');
-            }
-            else{
-                $gameCanvas.width(height);
-                $gameCanvas.height(width);
-                $gameCanvas.css('top',  (height - width)/2 );
-                $gameCanvas.css('left',  0-(height - width)/2 );
-                $gameCanvas.css('transform' , 'rotate(90deg)');
-                $gameCanvas.css('transform-origin' , '50% 50%');
+            let gameCanvas =  document.getElementById('gameCanvas');
+            if( width > height ) {
+                gameCanvas.width(width);
+                gameCanvas.height(height);
+                gameCanvas.css('top',  0 );
+                gameCanvas.css('left',  0 );
+                gameCanvas.css('transform' , 'none');
+                gameCanvas.css('transform-origin' , '50% 50%');
+            } else{
+                gameCanvas.width(height);
+                gameCanvas.height(width);
+                gameCanvas.css('top',  (height - width)/2 );
+                gameCanvas.css('left',  0-(height - width)/2 );
+                gameCanvas.css('transform' , 'rotate(90deg)');
+                gameCanvas.css('transform-origin' , '50% 50%');
             }
             
         }, false);
