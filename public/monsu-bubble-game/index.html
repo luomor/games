@@ -33,19 +33,19 @@
             var height =  document.documentElement.clientHeight;
             let gameCanvas =  document.getElementById('gameCanvas');
             if( width > height ) {
-                gameCanvas.width(width);
-                gameCanvas.height(height);
-                gameCanvas.css('top',  0 );
-                gameCanvas.css('left',  0 );
-                gameCanvas.css('transform' , 'none');
-                gameCanvas.css('transform-origin' , '50% 50%');
+                gameCanvas.width = width + "px";
+                gameCanvas.height = height + "px";
+                gameCanvas.style.top = "0px";
+                gameCanvas.style.left = "0px";
+                gameCanvas.style.transform = "none";
+                gameCanvas.style["transform-origin"] = '50% 50%';
             } else{
-                gameCanvas.width(height);
-                gameCanvas.height(width);
-                gameCanvas.css('top',  (height - width)/2 );
-                gameCanvas.css('left',  0-(height - width)/2 );
-                gameCanvas.css('transform' , 'rotate(90deg)');
-                gameCanvas.css('transform-origin' , '50% 50%');
+                gameCanvas.width = height + "px";
+                gameCanvas.height = width + "px";
+                gameCanvas.style.top = (height - width) / 2 + "px";
+                gameCanvas.style.left = 0 - (height - width)/2 + "px";
+                gameCanvas.style.transform = "rotate(90deg)";
+                gameCanvas.style["transform-origin"] = '50% 50%';
             }
             
         }, false);
