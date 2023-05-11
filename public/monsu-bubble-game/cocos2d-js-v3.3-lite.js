@@ -948,8 +948,8 @@ cc._setup = function (el, width, height) {
         element.appendChild(localCanvas);
     }
     localCanvas.addClass("gameCanvas");
-    localCanvas.setAttribute("width", width || 480);
-    localCanvas.setAttribute("height", height || 320);
+    //localCanvas.setAttribute("width", width || 480);
+    //localCanvas.setAttribute("height", height || 320);
     localCanvas.setAttribute("tabindex", 99);
     localCanvas.style.outline = "none";
     localConStyle = localContainer.style;
