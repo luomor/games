@@ -50,7 +50,7 @@ var app = {
         var container = config.container;
         container.innerHTML = '';
         container.style.width = width + 'px';
-        container.style.height = height + 'px';
+        //container.style.height = height + 'px';
         container.style.overflow = 'hidden';
 
         //启动游戏
