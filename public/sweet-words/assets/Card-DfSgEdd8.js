@@ -1,4 +1,4 @@
-import{r as c,s as h,j as t,g as b,y as f}from"./index-oAA_naB0.js";import{a as x}from"./index-DVwDXbL3.js";import{I as u}from"./logo-D2qi3rTW.js";import{g as w,d as y,f as v}from"./animates-MK-Ha-ee.js";import{S as j}from"./StyledWordBox-Mjdycq6D.js";import{I}from"./heart-CAqKcttF.js";const N="/assets/lover.bg-BAEuZj5V.png",S="/assets/birds.bg-DQ36vEkw.png",D="/assets/noise.bg-Dc_Xskz3.png",$=f.section`
+import{r as c,s as h,j as t,g as b,y as f}from"./index-C_9J37cg.js";import{a as x}from"./index-BvehhuJv.js";import{I as w}from"./logo-DixJ28u2.js";import{g as u,d as y,f as v}from"./animates-umuK-DLJ.js";import{S as j}from"./StyledWordBox-B2DfXvaa.js";import{I}from"./heart-CAqKcttF.js";const N="/sweet-words/assets/lover.bg-BAEuZj5V.png",S="/sweet-words/assets/birds.bg-DQ36vEkw.png",D="/sweet-words/assets/noise.bg-Dc_Xskz3.png",$=f.section`
   z-index: 997;
   position: fixed;
   top: 0;
@@ -12,7 +12,7 @@ import{r as c,s as h,j as t,g as b,y as f}from"./index-oAA_naB0.js";import{a as 
   backface-visibility: hidden;
 
   &.visible .card {
-    animation: ${w} 0.5s;
+    animation: ${u} 0.5s;
   }
   .card {
     position: relative;
@@ -132,4 +132,4 @@ import{r as c,s as h,j as t,g as b,y as f}from"./index-oAA_naB0.js";import{a as 
   font-weight: 800;
   animation: ${v} 1s ease forwards;
   animation-fill-mode: both;
-`,g=b("idx");let m="",s=0;function q({wordArr:a=[],visible:n=!1}){const[l,p]=c.useState("");return c.useEffect(()=>{if(n&&a.length>0){g&&(m=a[g]);const e=[...a];h(e);let o=m===""?1:e.findIndex(r=>r===m)+1,i=e[(o-1)%e.length];return p(i),s=0,window.CUR_WORDS_IDX=a.findIndex(r=>r===i),()=>{o++}}},[n,a]),t.jsx($,{className:n?"visible":"hidden",children:t.jsxs("div",{id:"HONEYED_WORDS_CARD",className:"card",children:[l.replaceAll(" ","").split("|").map((e,o)=>{let i=e.split("");return o!==0&&(s=s+l.split("|")[o-1].length),t.jsx("p",{className:"line",children:i.map((r,d)=>r!==""?t.jsx(W,{style:{animationDelay:`${.2*(s+d)}s`},className:"word",children:r},`${r}-${d}`):null)},e)}),[1,2,3,4,5].map((e,o)=>t.jsx("img",{style:{animationDelay:`${o*.3}s`},className:`heart heart${e}`,src:I,alt:"heart"},e)),t.jsxs("div",{className:"dbg qr",children:[t.jsx(x,{imageSettings:{width:10,height:10,src:u,excavate:!0},size:50,bgColor:"#f2f2f2",level:"Q",fgColor:"#000",marginSize:0,value:`${window.location.href.split("?")[0]}`}),t.jsx("div",{className:"tip",children:"土味情话"})]}),t.jsx("img",{src:N,alt:"lover",className:"dbg lover"}),t.jsx("img",{src:S,alt:"birds",className:"dbg birds"})]})})}export{q as default};
+`,g=b("idx");let m="",s=0;function q({wordArr:a=[],visible:n=!1}){const[d,p]=c.useState("");return c.useEffect(()=>{if(n&&a.length>0){g&&(m=a[g]);const e=[...a];h(e);let o=m===""?1:e.findIndex(r=>r===m)+1,i=e[(o-1)%e.length];return p(i),s=0,window.CUR_WORDS_IDX=a.findIndex(r=>r===i),()=>{o++}}},[n,a]),t.jsx($,{className:n?"visible":"hidden",children:t.jsxs("div",{id:"HONEYED_WORDS_CARD",className:"card",children:[d.replaceAll(" ","").split("|").map((e,o)=>{let i=e.split("");return o!==0&&(s=s+d.split("|")[o-1].length),t.jsx("p",{className:"line",children:i.map((r,l)=>r!==""?t.jsx(W,{style:{animationDelay:`${.2*(s+l)}s`},className:"word",children:r},`${r}-${l}`):null)},e)}),[1,2,3,4,5].map((e,o)=>t.jsx("img",{style:{animationDelay:`${o*.3}s`},className:`heart heart${e}`,src:I,alt:"heart"},e)),t.jsxs("div",{className:"dbg qr",children:[t.jsx(x,{imageSettings:{width:10,height:10,src:w,excavate:!0},size:50,bgColor:"#f2f2f2",level:"Q",fgColor:"#000",marginSize:0,value:`${window.location.href.split("?")[0]}`}),t.jsx("div",{className:"tip",children:"土味情话"})]}),t.jsx("img",{src:N,alt:"lover",className:"dbg lover"}),t.jsx("img",{src:S,alt:"birds",className:"dbg birds"})]})})}export{q as default};

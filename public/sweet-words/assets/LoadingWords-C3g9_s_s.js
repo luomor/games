@@ -1,4 +1,4 @@
-import{r as c,j as o,y as s,W as m}from"./index-oAA_naB0.js";import{S as p}from"./StyledWordBox-Mjdycq6D.js";import{j as f,A as u}from"./animates-MK-Ha-ee.js";const h=s.section`
+import{r as c,j as o,y as s,W as m}from"./index-C_9J37cg.js";import{S as p}from"./StyledWordBox-B2DfXvaa.js";import{j as f,A as u}from"./animates-umuK-DLJ.js";const h=s.section`
   position: fixed;
   top: 0;
   left: 0;
