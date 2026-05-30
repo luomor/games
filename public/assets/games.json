@@ -1,5 +1,26 @@
 {
     "games": [{
+        "title": "每日猜成语",
+        "description": "每日猜成语",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://wordle.luomor.com/"
+    },{
+        "title": "烙馍网成语Wordle",
+        "description": "烙馍网成语Wordle",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://wordle-cn.luomor.com/"
+    },{
+        "title": "单词猜谜游戏 Wordle",
+        "description": "单词猜谜游戏 Wordle",
+        "images": [{
+            "src": "https://games.luomor.com/assets/Games-icon.png"
+        }],
+        "url": "https://wordle-en.luomor.com/"
+    },{
         "title": "猪了个猪",
         "description": "猪了个猪",
         "images": [{
